@@ -3,6 +3,29 @@
 
 This repository is to support my tutorial on how to build an AirBnb Clone with structured content using Sanity.io and Next.js. View the full tutorial [here](https://youtu.be/mx1dbMzd3tU) 📺
 
+## Usage
+
+To get started with this project:
+
+1. **Install dependencies:**
+   ```bash
+   npm i
+   ```
+
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Open the app:**
+   Navigate to [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+Additional scripts available:
+- `npm run build` - Build the production application
+- `npm start` - Start the production server
+
+## About the Tutorial
+
 In this video I show you how to build an AirBnB Clone, as well as manage all your data visually. We are going to build a backend for the app that defines the relationships between our data thanks to Schemas and Types, and add data using Sanity Studio ( https://www.sanity.io/ )
 
 Topics we will be touching on:
@@ -37,7 +60,7 @@ and much more!
 1:46:45 - Adding in Review information\
 1:54:25 - Adding in Location information\
 2:06:01 - Adding Links with Next.js\
-2:07:15 - Building our AirBnB’s home page\
+2:07:15 - Building our AirBnB's home page\
 2:17:40 - Building our NavBar component\
 2:21:30 - Adding our AirBnB logo\
 2:23:35 - Adding a Cluster Map\
