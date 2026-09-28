@@ -37,7 +37,7 @@ and much more!
 1:46:45 - Adding in Review information\
 1:54:25 - Adding in Location information\
 2:06:01 - Adding Links with Next.js\
-2:07:15 - Building our AirBnB’s home page\
+2:07:15 - Building our AirBnB's home page\
 2:17:40 - Building our NavBar component\
 2:21:30 - Adding our AirBnB logo\
 2:23:35 - Adding a Cluster Map\
@@ -80,4 +80,16 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+## Development Checklist
+
+Before committing code, ensure you:
+- [ ] Run `npm run dev` to verify the app builds and runs locally
+- [ ] Test all new features in the browser
+- [ ] Check for console errors and warnings
+- [ ] Run tests with `npm test` (if available)
+- [ ] Review TODO comments at `/todo` page for outstanding work
+- [ ] Verify Sanity.io integration still functions correctly
+- [ ] Ensure responsive design works on mobile viewports
 
