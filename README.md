@@ -81,3 +81,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## PR68 passing probe
+
+This is a temporary documentation-only verification.
+
