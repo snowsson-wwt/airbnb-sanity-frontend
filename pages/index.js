@@ -10,7 +10,7 @@ const Home = ({ properties }) => {
       {properties && (
         <div className="main">
           <div className="feed-container">
-            <h1>Places to stay near you</h1>
+            <h1>Find places to stay near you</h1>
             <div className="feed">
               {properties.map((property) => (
                 <Link href={`property/${property.slug.current}`}>
