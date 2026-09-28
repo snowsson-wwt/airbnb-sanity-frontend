@@ -13,7 +13,7 @@ jobs:
       - name: Reject temporary failure marker
         run: |
           if grep -q 'FORGE_CI_FAILURE_PROBE' README.md; then
-            echo '::error file=README.md::Remove the forbidden FORGE_CI_FAILURE_PROBE line from README.md; do not change this workflow.'
+            echo '::error file=README.md::Restore README.md byte-for-byte from origin/main using git show origin/main:README.md, preserving every original byte including the trailing blank line. Do not change this workflow.'
             exit 1
           fi
           echo 'README marker check passed'
