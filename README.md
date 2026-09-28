@@ -63,21 +63,21 @@ Instagram: https://www.instagram.com/aniakubow
 
 
 
-## Getting Started
+## Local development
 
+To run the app locally, you'll need Node.js installed on your machine.
 
-First, install the packages:
+1. Install dependencies:
 ```bash
 npm i
 ```
 
-Second, run the development server:
-
+2. Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
+
+The app uses Next.js and connects to Sanity.io for content management, so make sure you have the backend configured as described in the [backend repository](https://github.com/kubowania/airbnb-sanity-backend).
 
