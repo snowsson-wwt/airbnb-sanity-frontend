@@ -63,8 +63,28 @@ Instagram: https://www.instagram.com/aniakubow
 
 
 
-## Getting Started
+## Local development
 
+To run this app locally, you'll need Node.js and npm installed on your machine.
+
+1. **Clone the repository and install dependencies:**
+   ```bash
+   npm i
+   ```
+
+2. **Configure Sanity.io:** Ensure you have a `.env.local` file with your Sanity project ID and dataset. The app uses `next-sanity` to connect to your Sanity backend.
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the app:** Visit [http://localhost:3000](http://localhost:3000) in your browser to see the app running locally.
+
+The app will automatically reload when you make changes to the code.
+
+
+## Getting Started
 
 First, install the packages:
 ```bash
