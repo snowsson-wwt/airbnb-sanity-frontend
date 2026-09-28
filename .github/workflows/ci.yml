@@ -1,0 +1,19 @@
+name: Forge temporary CI
+on:
+  pull_request
+permissions:
+  contents: read
+jobs:
+  marker-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Observation interval
+        run: sleep 35
+      - name: Reject temporary failure marker
+        run: |
+          if grep -q 'FORGE_CI_FAILURE_PROBE' README.md; then
+            echo '::error file=README.md::Remove the forbidden FORGE_CI_FAILURE_PROBE line from README.md; do not change this workflow.'
+            exit 1
+          fi
+          echo 'README marker check passed'
