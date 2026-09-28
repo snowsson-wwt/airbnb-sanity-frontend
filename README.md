@@ -81,3 +81,23 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Local development
+
+To run the app locally, you'll need to set up a few environment variables first. Create a `.env.local` file in the root directory with your Sanity project credentials:
+
+```bash
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
+NEXT_PUBLIC_SANITY_DATASET=your_dataset_name
+SANITY_API_TOKEN=your_api_token
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
+
+Then install dependencies and start the development server:
+
+```bash
+npm i
+npm run dev
+```
+
+The app will be available at [http://localhost:3000](http://localhost:3000). The development server will automatically reload when you make changes to your code.
+
