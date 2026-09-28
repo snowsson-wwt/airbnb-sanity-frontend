@@ -81,3 +81,14 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Local Development
+
+To run the app locally for development:
+
+1. **Install dependencies**: Run `npm i` to install all required packages
+2. **Set up environment variables**: Create a `.env.local` file with your Sanity project details (project ID, dataset, etc.)
+3. **Start the development server**: Run `npm run dev` and open [http://localhost:3000](http://localhost:3000) in your browser
+4. **The app will hot-reload** as you make changes to the code
+
+For Sanity Studio development, ensure you have the Sanity backend set up (see the [backend repository](https://github.com/kubowania/airbnb-sanity-backend)) and have configured your credentials properly in the environment variables.
+
