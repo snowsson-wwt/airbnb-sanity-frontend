@@ -37,7 +37,7 @@ and much more!
 1:46:45 - Adding in Review information\
 1:54:25 - Adding in Location information\
 2:06:01 - Adding Links with Next.js\
-2:07:15 - Building our AirBnB’s home page\
+2:07:15 - Building our AirBnB's home page\
 2:17:40 - Building our NavBar component\
 2:21:30 - Adding our AirBnB logo\
 2:23:35 - Adding a Cluster Map\
@@ -80,4 +80,14 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+## Development Checklist
+
+Before pushing your code, ensure you:
+- [ ] Test your changes locally with `npm run dev`
+- [ ] Verify all pages load without errors
+- [ ] Check that navigation links work correctly
+- [ ] Review your code for console errors or warnings
+- [ ] Ensure styling is consistent with the existing design
 
