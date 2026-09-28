@@ -37,7 +37,7 @@ and much more!
 1:46:45 - Adding in Review information\
 1:54:25 - Adding in Location information\
 2:06:01 - Adding Links with Next.js\
-2:07:15 - Building our AirBnB’s home page\
+2:07:15 - Building our AirBnB's home page\
 2:17:40 - Building our NavBar component\
 2:21:30 - Adding our AirBnB logo\
 2:23:35 - Adding a Cluster Map\
@@ -80,4 +80,14 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+## Development Checklist
+
+Before making changes, ensure you have:
+- [ ] Installed dependencies with `npm i`
+- [ ] Set up Sanity backend and configured connection in `sanity.js`
+- [ ] Added Google Maps API key if using map features
+- [ ] Tested the development server runs successfully
+- [ ] Reviewed the schema structure in the Sanity backend
 
