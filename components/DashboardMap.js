@@ -7,6 +7,7 @@ const DashboardMap = ({ properties }) => {
     googleMapsApiKey: process.env.googlePlacesAPI,
   })
 
+  // TODO: Remove duplicate console.log statements
   console.log(properties[0].location?.lat)
   console.log(properties[0].location?.lat)
   const containerStyle = {
