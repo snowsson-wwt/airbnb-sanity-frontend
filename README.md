@@ -81,3 +81,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## PR69 automatic restore probe
+
+FORGE_RESTORE_PROBE
