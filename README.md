@@ -37,7 +37,7 @@ and much more!
 1:46:45 - Adding in Review information\
 1:54:25 - Adding in Location information\
 2:06:01 - Adding Links with Next.js\
-2:07:15 - Building our AirBnB’s home page\
+2:07:15 - Building our AirBnB's home page\
 2:17:40 - Building our NavBar component\
 2:21:30 - Adding our AirBnB logo\
 2:23:35 - Adding a Cluster Map\
@@ -81,3 +81,13 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Contributing
+
+We welcome contributions to improve this project! Here's how you can help:
+
+1. **Fork the repository** and create a new branch for your changes
+2. **Make your changes** with clear, descriptive commit messages
+3. **Test your changes** locally to ensure they work as expected
+4. **Submit a pull request** with a description of what you've changed and why
+
+For bug reports or feature requests, please open an issue on GitHub.
