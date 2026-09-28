@@ -83,4 +83,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## PR68 history probe
 
-Local development uses npm run dev.
+Local development uses npm run dev. This documentation is temporary.
