@@ -84,4 +84,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## PR68 history probe
 
 Local development uses npm run dev.
-FORGE_CI_FAILURE_PROBE
