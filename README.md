@@ -81,3 +81,27 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Local development
+
+To run the app locally:
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Set up environment variables:**
+   Create a `.env.local` file in the root directory with your Sanity project credentials (project ID, dataset, etc.).
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   The app will be available at [http://localhost:3000](http://localhost:3000).
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   npm start
+   ```
+
