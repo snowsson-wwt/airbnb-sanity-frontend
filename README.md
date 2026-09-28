@@ -84,4 +84,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## PR68 retained probe
 
 Local development uses npm run dev.
+This documentation probe is temporary.
 
