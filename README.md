@@ -81,14 +81,3 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Local Development
-
-To set up your local development environment:
-
-1. Clone the repository and install dependencies with `npm i`
-2. Create a `.env.local` file with your Sanity project credentials
-3. Run `npm run dev` to start the development server on `http://localhost:3000`
-4. The app will automatically reload as you make changes
-
-For detailed configuration and troubleshooting, refer to the [Sanity documentation](https://www.sanity.io/docs) and [Next.js documentation](https://nextjs.org/docs).
-
