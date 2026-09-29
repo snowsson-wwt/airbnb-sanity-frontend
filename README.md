@@ -83,5 +83,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Local development
 
-To set up the environment for local development, ensure Node.js is installed and clone this repository. Install dependencies with `npm i`, then run `npm run dev` to start the development server on port 3000. Make sure to configure your Sanity project credentials in the appropriate environment configuration file before running the application.
+To set up the environment for local development, ensure Node.js is installed and clone this repository. Install dependencies with `npm i`, then run `npm run dev` to start the development server on port 3000. Make sure to configure your Sanity project credentials in the appropriate environment configuration file before running the application. Keep local configuration out of version control.
 
